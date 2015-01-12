@@ -5,7 +5,8 @@
 #|__|(____  /|__|_|  /
 #         \/       \/ 
 #	[!]Author: IAM
-# POC: XSS FIXED on commentcamarche.net
+#	[!]Vulnerability: XSS FIXED
+#	[!]Target: commentcamarche.net
 
 
 import urllib,urllib2
