@@ -43,7 +43,7 @@ def main():
 	data = response.read()
 	json_data = json.loads(data)
 	if json_data["res"] == True:
-		print "Attack send"
+		print "Attack send to"
 		print "%snews/%i" % (url, newsId)
 	else:
 		print "Attack error"
